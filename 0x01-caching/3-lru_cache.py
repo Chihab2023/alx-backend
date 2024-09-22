@@ -63,4 +63,3 @@ class LRUCache(BaseCaching):
         self.lru_queue.append(key)
 
         return self.cache_data[key]
-    
